@@ -1,0 +1,23 @@
+.vid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    gap: clamp(.5rem, 1vh, 2rem);
+
+}
+
+.six video {
+    display: flex;
+    background-color: rgba(245, 120, 120, 0.926);
+    padding: 0px;
+    object-fit: cover;
+}
+
+video{
+    margin: 20px;
+    display: flex;
+    border: 10px groove #a20000;
+    flex-wrap: wrap;
+    flex-direction: column;
+}

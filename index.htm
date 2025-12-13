@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hazbin Hotel</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/burger.css">
+    <link rel="stylesheet" href="css/formulaire.css">
+    <link rel="stylesheet" href="css/video.css">
+    <link rel="shortcut icon" href="images/clé.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Menu de navigation du site -->
+    <label class="navigation__bouton" for="chk-burger">
+        <h1 class="menu">Menu</h1>
+        <img src="images/clé.jpg" width="75" height="75">
+    </label>
+    <input type="checkbox" name="" id="chk-burger">
+    <nav class="navigation">
+        <a href="#un">Accueil</a>
+        <a href="#deux">Inscription</a>
+        <a href="#trois">Infos sur les guides</a>
+        <a href="#quatre">Galerie</a>
+        <a href="#cinq">Première rédemption</a>
+        <a href="#six">Vidéos</a>
+        <a href="#sept">Plus d'infos</a>
+    </nav>
+
+
+    <div class="hero un">
+        <section class="accueil section__hero" id="un">
+            <div>
+                <h1>Hazbin Hotel</h1>
+                <h2>Une rédemption garantie</h2>
+
+                <p>
+                    <strong>Bienvenue à l’Hazbin Hotel !</strong><br>
+                    Ici, le but est simple : offrir une chance de rédemption à
+                    ceux qui veulent changer. Sous la direction de la princesse
+                    des enfers elle-même, l’hôtel accueille tous ceux qui
+                    souhaitent repartir à zéro, apprendre, évoluer et trouver
+                    une nouvelle voie, même au cœur de l’Enfer.
+                </p>
+                <p class="p2">
+                    <strong>Envie d’essayer ?</strong><br>
+                    Que tu sois curieux, perdu, en quête de changement ou
+                    simplement à la recherche d’un endroit où ta différence est
+                    non seulement acceptée mais célébrée, l’Hazbin Hotel t’ouvre
+                    ses portes. Ici, chaque âme a sa place, et chaque histoire
+                    mérite une seconde chance. Inscris-toi et découvre un
+                    endroit où chaque âme mérite une seconde chance — y compris la tienne.
+                </p>
+                <p>
+                    Après tout… pourquoi rester le démon que tu es, alors que tu
+                    pourrais devenir celui que tu choisis d’être ?
+                </p>
+            </div>
+            <div class="bouton__inscription">
+                <a href="#deux"> Commencer l'inscription</a>
+            </div>
+            <span>
+                <p>Fait par Sophie Jean Paul</p>
+                <p>582-1W1 – Mise en page Web</p>
+                <p>Technique d'Integration Multimedia</p>
+                <p>Automne 2025</p>
+                <p>Collège de Maisonneuve</p>
+            </span>
+        </section>
+    </div>
+
+
+    <div class="hero deux">
+        <section class="inscriptions section__hero" id="deux">
+            <h1>Inscription</h1>
+            <form class="formulaire">
+                <div class="form">
+                    <div class="formulaire__div">
+                        <label class="formulaire__" for="txtNom">Nom</label>
+                        <input type="text" id="txtNom" class="formulaire__input" placeholder="Entrez votre nom">
+                    </div>
+                    <div class="formulaire__div">
+                        <label class="formulaire__" for="txtPrenom">Prénom</label>
+                        <input type="text" id="txtPrenom" class="formulaire__input" placeholder="Entrez votre prénom">
+                    </div>
+                    <div class="formulaire__div"> <label class="formulaire__" for="txtCourriel">Courriel</label>
+                        <input type="email" id="txtCourriel" class="formulaire__input"
+                            placeholder="Entrez votre courriel">
+                    </div>
+                </div>
+                <div class="form">
+                    <p>Sélectionnez votre guide attitré</p>
+                    <section>
+                        <label class="formulaire__label" for="radForfait_1">
+                            Charlie Morningstar
+                            <input type="radio" name="radForfait" id="radForfait_1">
+                        </label>
+                        <label class="formulaire__label" for="radForfait_2">
+                            Vaggi
+                            <input type="radio" name="radForfait" id="radForfait_2">
+                        </label>
+                        <label class="formulaire__label" for="radForfait_3">
+                            Angel Dust
+                            <input type="radio" name="radForfait" id="radForfait_3">
+                        </label>
+                        <label class="formulaire__label" for="radForfait_4">
+                            Alastor
+                            <input type="radio" name="radForfait" id="radForfait_4">
+                        </label>
+                        <label class="formulaire__label" for="radForfait_5">
+                            Husker
+                            <input type="radio" name="radForfait" id="radForfait_5">
+                        </label>
+                        <label class="formulaire__label" for="radForfait_6">
+                            Niffty
+                            <input type="radio" name="radForfait" id="radForfait_6">
+                        </label>
+                        <label class="formulaire__label" for="radForfait_7">
+                            Cherry Bomb
+                            <input type="radio" name="radForfait" id="radForfait_7">
+                        </label>
+                        <label class="formulaire__label" for="radForfait_8">
+                            Lucifer Morningstar
+                            <input type="radio" name="radForfait" id="radForfait_8">
+                        </label>
+                        <label class="formulaire__label" for="radForfait_9">
+                            Backster
+                            <input type="radio" name="radForfait" id="radForfait_9">
+                        </label>
+                        <input type="submit" value="Recommencer" id="input">
+                    </section>
+
+                    <a href="#trois" class="btn-valider">Valider</a>
+                </div>
+            </form>
+        </section>
+    </div>
+
+
+    <div class="hero trois">
+        <section class="tableau section__hero" id="trois">
+            <h1>Informations sur les guides</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Noms</th>
+                        <th>Status</th>
+                        <th>Occupations</th>
+                        <th>Niveau de bonté/100</th>
+                        <th>Puissance/100</th>
+                        <th>Age</th>
+                        <th>Numéro de chambre</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Charlie Morningstar</td>
+                        <td>Princesse de l'enfer</td>
+                        <td>Fondatrice de l'Hazbin Hotel</td>
+                        <td>100</td>
+                        <td>70</td>
+                        <td>environ 20 ans</td>
+                        <td>1001</td>
+                    </tr>
+                    <tr>
+                        <td>Vaggi</td>
+                        <td>Ange déchue</td>
+                        <td>Gestionnaire de l'Hotêl</td>
+                        <td>75</td>
+                        <td>65</td>
+                        <td>environ 20 ans</td>
+                        <td>1002</td>
+                    </tr>
+                    <tr>
+                        <td>Angle Dust</td>
+                        <td>Démon</td>
+                        <td>Star du Porno</td>
+                        <td>40</td>
+                        <td>45</td>
+                        <td>Environ 30 ans</td>
+                        <td>3304</td>
+                    </tr>
+                    <tr>
+                        <td>Alastor</td>
+                        <td>Démon de la radio</td>
+                        <td>Prétendu hôte de l'Hotêl</td>
+                        <td>15</td>
+                        <td>95</td>
+                        <td>+100 ans</td>
+                        <td>3066</td>
+                    </tr>
+                    <tr>
+                        <td>Husk</td>
+                        <td>Ancien démon joueur</td>
+                        <td>Barman</td>
+                        <td>30</td>
+                        <td>70</td>
+                        <td>Environ 70 ans</td>
+                        <td>2113</td>
+                    </tr>
+                    <tr>
+                        <td>Nifty</td>
+                        <td>Démon</td>
+                        <td>Femme de ménage</td>
+                        <td>40</td>
+                        <td>60</td>
+                        <td>Environ 20 ans</td>
+                        <td>3060</td>
+                    </tr>
+                    <tr>
+                        <td>Cherry Bomb</td>
+                        <td>Démon</td>
+                        <td>Terroriste</td>
+                        <td>45</td>
+                        <td>45</td>
+                        <td>Environ 20 ans</td>
+                        <td>3305</td>
+                    </tr>
+                    <tr>
+                        <td>Baxter</td>
+                        <td>Démon</td>
+                        <td>Scientifique/Inventeur</td>
+                        <td>30</td>
+                        <td>35</td>
+                        <td>Environ 40 ans</td>
+                        <td>2404</td>
+                    </tr>
+                    <tr>
+                        <td>Lucifer Morningstar</td>
+                        <td>Roi de l'Enfer</td>
+                        <td>règne sur l'enfer</td>
+                        <td>90</td>
+                        <td>100</td>
+                        <td>Plus agé que la terre</td>
+                        <td>3666</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+
+    <div class="hero quatre">
+        <section class="galerie section__hero" id="quatre">
+            <h1>Galerie</h1>
+            <div class="images">
+                <figure>
+                    <img src="images/charlie.jpg" alt="Charlie">
+                    <figcaption>
+                        <p>Charlie Morningstar</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/vaggi.jpg" alt="Vaggi">
+                    <figcaption>
+                        <p>Vaggi</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/agel-dust.avif" alt="Angel">
+                    <figcaption>
+                        <p>Angel Dust</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/alastor.webp" alt="Alastor">
+                    <figcaption>
+                        <p>Alastor</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/husk.webp" alt="Husk">
+                    <figcaption>
+                        <p>Husk</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/niffty.jpeg" alt="Niffty">
+                    <figcaption>
+                        <p>Niffty</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/cherry-bomb.webp" alt="Cherry">
+                    <figcaption>
+                        <p>Cherry Bomb</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/baxter.jpg" alt="Baxter">
+                    <figcaption>
+                        <p>Baxter</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/lucifer.webp" alt="Lucifer">
+                    <figcaption>
+                        <p>Lucifer Morningstar</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/sir-pentious.jpg" alt="Pentious">
+                    <figcaption>
+                        <p>Sir Pentious</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+    </div>
+
+
+    <div class="hero cinq">
+        <section class="articles section__hero" id="cinq">
+            <h1 class="pentious">Sir Pentious</h1>
+
+            <section class="principal principal__section">
+                <article class="principal__article">
+
+                    <section>
+                        <h2>Qui est Sir Pentious?</h2>
+                        <p>
+                            Sir Pentious est un inventeur excentrique, passionné 
+                            et obstiné, toujours en quête de reconnaissance dans 
+                            un Enfer qui ne lui a jamais vraiment accordé 
+                            l’attention qu’il désirait. Obsédé par l’idée de 
+                            devenir un grand conquérant, il passait des journées 
+                            entières à imaginer, construire et perfectionner des 
+                            machines aussi ambitieuses que farfelues. Ses 
+                            inventions spectaculaires faisaient autant rire 
+                            qu’elles impressionnaient, et malgré ses efforts, il 
+                            a souvent été tourné en ridicule par les autres 
+                            démons qui ne prenaient jamais ses ambitions au 
+                            sérieux. Pourtant, derrière ses manières dramatiques 
+                            ,ses envolées théâtrales et son goût évident pour 
+                            les discours exagérés, se cache un pécheur 
+                            profondément touché par le besoin de prouver sa 
+                            valeur. Sous ses airs arrogants se trouve quelqu’un 
+                            qui, plus que tout, souhaite montrer qu’il mérite sa 
+                            place, qu’il peut accomplir quelque chose de grand 
+                            et que son existence n’est pas vouée à n’être qu’une 
+                            blague infernale.
+                        </p>
+
+
+
+                    </section>
+                    <figure class="principal__figure">
+                        <img src="images/pentious02.jpeg" alt="Pentious" />
+                        <figcaption>
+                            Sir Pentious et ses Egg boys.
+                        </figcaption>
+                    </figure>
+                </article>
+
+                <article class="principal__article odd">
+
+                    <section>
+                        <h2>Pentious l'inventeur</h2>
+                        <p>
+                            Aucun démon en enfer ne peut nier que Sir
+                            Pentious possède un génie particulier. Ses
+                            inventions sont
+                            le résultat d’un esprit créatif et déterminé.
+                            Lorsqu’il se concentre sur son travail, il est
+                            méthodique, inspiré, et étonnamment discipliné.
+                            Il a le talent d’un véritable ingénieur.
+                            Dommage que le reste de l’Enfer se contente de
+                            rire au lieu de reconnaître ce qu’il est capable
+                            de faire.
+                        </p>
+
+
+
+                    </section>
+                    <figure class="principal__figure">
+                        <img src="images/pentious05.webp" alt="Pentious et Baxter" />
+                        <figcaption>
+                            Sir Pentious et Baxter.
+                        </figcaption>
+                    </figure>
+                </article>
+
+                <article class="principal__article ">
+
+                    <section>
+                        <h2>Pentious et son sacrifice</h2>
+                        <p>
+                            Lors de la bataille contre Adam et ses
+                            exterminateurs, Sir Pentious décida de faire
+                            l'ultime sacrifice. Il fit le choix de se tenir
+                            en première ligne, malgré les risques, prouvant
+                            enfin qu’il a le courage de défendre ceux qu’il
+                            considère comme ses alliés. Ce geste héroïque marqua un
+                            tournant important : il gagna le respect qu’il a
+                            toujours cherché.
+                        </p>
+                    </section>
+                    <figure class="principal__figure">
+                        <img src="images/pentious03.jpg" alt="Pentious avant de mourir" />
+                        <figcaption>
+                            Sir Pentious, un peu avant sa mort.
+                        </figcaption>
+                    </figure>
+
+                </article>
+
+                <article class="principal__article odd">
+
+                    <section>
+                        <h2>Pentious au Paradis</h2>
+                        <p>
+                            Sir Pentious est aujourd’hui reconnu comme le
+                            premier pécheur de l’Enfer à avoir obtenu sa
+                            rédemption et gagné sa place au Paradis. Ce
+                            moment prouve qu’il est possible pour un démon
+                            digne d’un avenir meilleur. Son
+                            assension est la preuve d’un acte de courage
+                            sincère et d’un véritable effort personnel. Sa
+                            réussite brise le mythe selon lequel l’Enfer
+                            serait éternelle.
+                        </p>
+
+
+
+                    </section>
+                    <figure class="principal__figure">
+                        <img src="images/pentious06.webp" alt="Pentious avant de mourir" />
+                        <figcaption>
+                            Sir Pentious et Sera au paradis.
+                        </figcaption>
+                    </figure>
+                </article>
+
+
+            </section>
+
+        </section>
+    </div>
+
+
+    <div class="hero six">
+        <section class="video section__hero" id="six">
+            <h1>Videos</h1>
+            <section class="vid">
+                <video controls width="270" height="270">
+                    <source src="video/happy-day-in-hell.mp4" type="video/mp4">
+                    Votre Navigateur ne supporte pas la balise vidéo
+                </video>
+                <video controls width="270" height="270">
+                    <source src="video/it-starts-with-sorry.mp4" type="video/mp4">
+                    Votre Navigateur ne supporte pas la balise vidéo
+                </video>
+                <video controls width="270" height="270">
+                    <source src="video/more-than-anything.mp4" type="video/mp4">
+                    Votre Navigateur ne supporte pas la balise vidéo
+                </video>
+                <video controls width="270" height="270">
+                    <source src="video/losing-streak.mp4" type="video/mp4">
+                    Votre Navigateur ne supporte pas la balise vidéo
+                </video>
+                <video controls width="270" height="270">
+                    <source src="video/finale.mp4" type="video/mp4">
+                    Votre Navigateur ne supporte pas la balise vidéo
+                </video>
+                <video controls width="270" height="270">
+                    <source src="video/clean-it-up.mp4" type="video/mp4">
+                    Votre Navigateur ne supporte pas la balise vidéo
+                </video>
+                <video controls width="270" height="270">
+                    <source src="video/Live-to-live.mp4" type="video/mp4">
+                    Votre Navigateur ne supporte pas la balise vidéo
+                </video>
+                <video controls width="270" height="270">
+                    <source src="video/hear-my-hope.mp4" type="video/mp4">
+                    Votre Navigateur ne supporte pas la balise vidéo
+                </video>
+
+            </section>
+        </section>
+
+    </div>
+
+
+    <div class="hero sept">
+        <section class="footer section__hero" id="sept">
+            <div class="milieu">
+                <h1>Informations supplémentaires</h1>
+            </div>
+            <div class="bas">
+                <footer class="sept__centre pied">
+
+                    <!-- Adresse du collège -->
+                    <section class="pied__section addresse">
+                        <h3>Adresse</h3>
+                        <ul>
+                            <li>Collège de Maisonneuve</li>
+                            <li>3800 Rue Sherbrooke E</li>
+                            <li>Montréal, QC H1X 2A2</li>
+                            <li>Canada</li>
+                            <li>Téléphone : (514) 254-7131</li>
+                        </ul>
+                    </section>
+
+                    <!-- Description du sujet -->
+                    <section class="pied__section description">
+                        <h3>À propos du projet</h3>
+                        <ul>
+                            <li>Site inspiré de la série Hazbin Hotel</li>
+                            <li>Auteur originelle de la série: Vivienne Medrano</li>
+                            <li>Travail scolaire – Mise en page Web</li>
+                            <li>Projet de fin de session - Mise en page Web</li>
+
+                        </ul>
+                    </section>
+
+                    <!-- Liens importants -->
+                    <section class="pied__section liens">
+                        <h3>Liens importants</h3>
+                        <ul>
+                            <li><a href="https:/en.wikipedia.org/wiki/Hazbin_Hotel">Hazbin Hotel</a></li>
+                            <li><a href="https:/en.wikipedia.org/wiki/Vivienne_Medrano">Vivienne Medrano</a></li>
+                            <li><a href="https:/hazbinhotel.fandom.com/wiki/Hazbin_Hotel_(series)">Le fandom d'Hazbin
+                                    Hotel</a></li>
+                            <li><a href="https:/www.primevideo.com/detail/Hazbin-Hotel/0HZWTBZYQQXYW48YBANMDM2MZE">Hazbin
+                                    Hotel saison 1</a></li>
+                            <li><a href="https:/www.primevideo.com/detail/Hazbin-Hotel/0K67FVL3VHXNTE3JST8GXWOOFG">Hazbin
+                                    Hotel saison 2</a></li>
+                        </ul>
+                    </section>
+
+                    <!-- Réseaux sociaux -->
+                    <section class="pied__section footer__icon">
+                        <h3>Réseaux sociaux</h3>
+                        <ul>
+                            <img src="https:/s2.svgbox.net/social.svg?ic=instagram&color=a20202" width="32" height="32">
+                            <img src="https:/s2.svgbox.net/social.svg?ic=messenger&color=a20202" width="32" height="32">
+                            <img src="https:/s2.svgbox.net/social.svg?ic=facebook&color=a20202" width="32" height="32"
+                                alt="facebook">
+                            <img src="https:/s2.svgbox.net/social.svg?ic=youtube&color=a20202" width="32" height="32">
+                        </ul>
+                    </section>
+                </footer>
+                <!-- Lien retour accueil -->
+                <div class="sept__centre retour">
+                    <a href="#un" class="retour__btn">Retour à l’accueil</a>
+                </div>
+                <div class="sept__centre  cite">
+                    <cite>Avis de confidentialité | Privacy Note</cite>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

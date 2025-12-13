@@ -1,0 +1,45 @@
+.navigation__bouton {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+}
+
+#chk-burger {
+    display: none;
+}
+
+.navigation,
+#chk-burger {
+    position: fixed;
+    top: 110px;
+    right: 10px;
+    background-color: rgba(39, 4, 4, 0.767);
+    border-radius: 25%;
+    border: 5px dotted rgb(175, 28, 28);
+    font-size: 5rem;
+    z-index: 9999;
+}
+
+.navigation {
+    transform: translateX(120%);
+    transition: transform .5s cubic-bezier(.96, .96, .44, .44);
+    height: 235px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.navigation a {
+    font-family: "Miltonian Tattoo", cursive;
+    display: block;
+    color: rgb(252, 210, 210);
+    padding: 0px;
+    margin: 0px 40px 0px 40px;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px #aaa;
+    font-size: 25px;
+}
+
+#chk-burger:checked~.navigation {
+    transform: translateX(0);
+}

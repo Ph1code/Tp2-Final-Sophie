@@ -1,0 +1,42 @@
+.form{
+    text-align: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.formulaire__div{
+    margin : 20px 0;
+}
+
+.formulaire__{
+    font-size: clamp(1.5rem, 1vw, 30px);
+}
+
+.formulaire__input{
+    margin: 10px 0;
+    color: #ad0d0d;
+    font-size: clamp(1.5rem, 1vw, 20px)
+}
+
+.formulaire__input:checked{
+    background-color: brown;
+}
+
+.form section{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:clamp(1.5rem, 1vw, 30px)
+}
+
+.formulaire__label{
+    font-size: 20px;
+}
+
+#input{
+    margin-top: 10px;
+    font-size: clamp(1.5rem, 1vw, 20px)
+}
+
+.form p{
+   font-size: clamp(1.5rem, 1vw, 30px) 
+}
