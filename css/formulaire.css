@@ -10,12 +10,14 @@
 
 .formulaire__{
     font-size: clamp(1.5rem, 1vw, 30px);
+    color: #600000;
+    font-family: 'Miltonian Tattoo';
 }
 
 .formulaire__input{
     margin: 10px 0;
     color: #ad0d0d;
-    font-size: clamp(1.5rem, 1vw, 20px)
+    font-size: clamp(.5rem, 1vw, 20px)
 }
 
 .formulaire__input:checked{
@@ -38,5 +40,7 @@
 }
 
 .form p{
-   font-size: clamp(1.5rem, 1vw, 30px) 
+   font-size: clamp(1.5rem, 1vw, 30px) ;
+   color: #600000;
+    font-family: 'Miltonian Tattoo';
 }
