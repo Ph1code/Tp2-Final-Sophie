@@ -268,7 +268,7 @@ tbody tr:hover {
     box-shadow: -10px 10px 10px #000;
 }
 
-figcaption {
+.fig__galerie {
     padding: 6px;
     background: linear-gradient(45deg, #4f4246, #350012);
 }
@@ -359,7 +359,7 @@ figcaption p {
     filter: none;
 }
 
-figcaption {
+.fig__article {
     background-color: #6666667c;
     text-align: center;
     font-style: italic;
