@@ -71,16 +71,17 @@ h1 {
     font-family: "Almendra SC", serif;
     display: flex;
     justify-content: center;
-    font-size: clamp(2rem, 10vw, 5.5rem);
+    font-size: clamp(2rem, 10vw, 5rem);
     text-shadow: 3px 3px 3px #000000;
     color: #ff0000;
-    margin: 60px 0 0 0;
+    margin-top: clamp(20px, 6vw, 60px);
 }
 
 h2 {
-   font-size: clamp(1.3rem, -4rem + 16vw, 2.5rem);
+   font-size: clamp(1.3rem, -4rem + 16vw, 2rem);
     font-style: italic;
-    align-self: center;
+    margin-top: clamp(10px, 4vw, 50px);
+    margin-bottom: 10px;
 }
 
 p {
@@ -104,6 +105,8 @@ span p {
     box-shadow: 3px 2px 5px #000;
     transform: scale(1);
     transition: transform 0.1s ease;
+    margin-top: clamp(20px, 16vw, 70px);
+    margin-bottom: clamp(30px, 4vw, 70px);
 }
 
 .bouton__inscription:active {
@@ -111,17 +114,18 @@ span p {
 }
 
 .bouton__inscription a {
-    margin: 30px;
+    margin: clamp(10px, 4vw, 60px);
     color: #fff;
     text-align: center;
-    font-size: 25px;
+    font-size: clamp(15px, 4vw, 25px);
 }
 
 span {
     display: flex;
     align-items: end;
     flex-direction: column;
-    margin: 60px 10px 0px 0px;
+    margin-top: clamp(20px, 15vw, 70px);
+    margin-right: 10px;
 }
 
 
@@ -130,6 +134,10 @@ span {
 /******************************************************************************/
 .deux {
     background-image: url("../images/images01.jpg");
+}
+
+#deux{
+    gap: clamp(0rem, 4vw, 10rem);
 }
 
 .inscriptions {
@@ -141,34 +149,33 @@ span {
 }
 
 .formulaire {
-    width: 80%;
+    width: 85%;
     padding: 10px;
     margin-left: 0;
     border: 10px double black;
     background-color: #e8b3b3;
     display: flex;
     flex-wrap: wrap;
-    gap:clamp(2rem, 1vw, 4rem);
+    gap:clamp(0rem, 1vw, 4rem);
 }
 
 .btn-valider {
     display: inline-block;
     border: 2px solid black;
-    font-size: clamp(10px, 4vw, 20px);
+    font-size: clamp(7px, 4vw, 25px);
     text-decoration: none;
-    color: #d78989;
-    transform: scale(1);
-    transition: transform 0.1s ease;
     color: #fff;
     background: linear-gradient(45deg,  #ff135a, #350012);
     box-shadow: 3px 2px 5px #000;
     transform: scale(1);
     transition: transform 0.1s ease;
+    padding: clamp(0px, .5vw, 10px);
 }
 
 .btn-valider:active {
     transform: scale(.9);
 }
+
 
 
 
@@ -208,8 +215,7 @@ th {
 td,
 th {
     border: 2px solid #000000;
-    padding: 0px;
-    font-size: clamp(.4rem, 1vw, 2rem);
+    font-size: clamp(.3rem, 1.5vw, 2rem);
     padding-left:clamp(0px, .5vw, 5px);
     padding-right: clamp(0px, .5vw, 5px);
 }
@@ -263,6 +269,7 @@ tbody tr:hover {
     border: 10px ridge #aaa;
     flex-wrap: wrap;
     flex-direction: column;
+    box-shadow: -10px 10px 10px #000;
 }
 
 figcaption {
@@ -305,15 +312,15 @@ figcaption p {
 .principal__article {
     display: flex;
     flex-wrap: wrap;
-    background: linear-gradient(90deg, rgba(205, 228, 238, 0.119), rgba(205, 228, 238, 0.568),  rgba(205, 228, 238));
+    background: linear-gradient(90deg, rgba(205, 228, 238, 0), rgba(205, 228, 238, 0.688), rgba(205, 228, 238, 0.879),  rgba(205, 228, 238));
     border-radius: 5px;
-    margin: 5px;
+    margin-bottom: 5px;
     padding: 5px;
 }
 
 .odd{
     flex-direction: row-reverse;
-     background: linear-gradient(90deg, rgba(205 228 238), rgba(205, 228, 238, 0.568),  rgba(205, 228, 238, 0.119));
+    background: linear-gradient(90deg, rgba(205 228 238), rgba(205, 228, 238, 0.879), rgba(205, 228, 238, 0.688),   rgba(205, 228, 238, 0));
 }
 
 .principal__article section {
@@ -331,8 +338,7 @@ figcaption p {
 
 
 .principal__article p {
-    line-height: 1.5rem;
-    font-size: clamp(.8rem, .5vh, 2rem);
+  font-size:clamp(.9rem, 2vw, 15px);
 }
 
 .principal__figure {
@@ -349,6 +355,12 @@ figcaption p {
     margin: 0px;
     object-fit: cover;
     width: 100%;
+    filter: blur(5px);
+    transition: filter .5s;
+}
+
+.principal__figure img:hover {
+    filter: none;
 }
 
 figcaption {
@@ -411,12 +423,11 @@ figcaption {
     display: flex;
     border-top: 3px solid #b30000;
     flex-wrap: wrap;
-    gap: 40px;
     justify-content: space-evenly;
 }
 
 .pied__section h3 {
-    font-size: 1.3rem;
+    font-size: clamp(1.3rem, 5vw, 2rem);
     margin-bottom: 12px;
     color: #ff4d4d;
     text-transform: uppercase;
@@ -437,7 +448,8 @@ figcaption {
 .pied__section li {
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 8px;
-    font-size: 13px;
+    font-size: clamp(10px, 5vw, 20px);
+    letter-spacing: 1px;
 }
 
 .pied__section a {
@@ -460,14 +472,15 @@ figcaption {
 }
 
 .retour__btn {
-    padding: 10px 20px;
+    padding: 5px 10px;
     background-color: #b30000;
     color: #fff;
     text-decoration: none;
     border-radius: 8px;
     transition: 0.3s;
-    width: 80%;
-    margin: 0 auto;
+    width: 90%;
+    margin: 10px auto;
+    font-size: 25px;
 }
 
 .retour__btn:hover {
@@ -477,8 +490,9 @@ figcaption {
 cite {
     display: flex;
     align-items: flex-end;
+    justify-content: end;
     font-size: 15px;
     color: #bdbdbd;
-    height: 80px;
-    padding-left: 10px;
+    height: 60px;
+    padding-right: 20px;
 }
