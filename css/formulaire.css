@@ -5,11 +5,11 @@
 }
 
 .formulaire__div{
-    margin : clamp(5px, 4vw, 40px);
+    margin : clamp(5px, 4vw, 20px);
 }
 
 .formulaire__{
-    font-size: clamp(1.5rem, 4vw, 35px);
+    font-size: clamp(1.5rem, 4vw, 30px);
     color: #600000;
     font-family: 'Miltonian Tattoo';
 }
@@ -17,7 +17,7 @@
 .formulaire__input{
     margin: 10px 0;
     color: #ad0d0d;
-    font-size: clamp(.5rem, 4vw, 25px)
+    font-size: clamp(.5rem, 4vw, 20px)
 }
 
 .formulaire__input:checked{
@@ -27,21 +27,20 @@
 .form section{
     display: flex;
     flex-direction: column;
-    margin-bottom:clamp(1.5rem, 1vw, 30px)
 }
 
 .formulaire__label{
-    font-size:clamp(10px, 4vw, 25px);
+    font-size:clamp(10px, 4vw, 20px);
 }
 
 #input{
     margin: 25px;
-    font-size: clamp(1.5rem, 4vw, 25px)
+    font-size: clamp(1.5rem, 4vw, 15px)
 }
 
 .form p{
-   font-size: clamp(1.5rem, 4vw, 35px) ;
+   font-size: clamp(1.5rem, 4vw, 30px) ;
    color: #600000;
     font-family: 'Miltonian Tattoo';
-    margin: clamp(0px, 4vw, 20px);
+    margin: clamp(0px, 4vw, 10px);
 }

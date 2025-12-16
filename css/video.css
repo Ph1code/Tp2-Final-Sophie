@@ -21,6 +21,6 @@ video{
     flex-wrap: wrap;
     flex-direction: column;
     box-shadow: 10px 5px 5px #000;
-    width: clamp(200px, 4vw, 350px);
-    height: clamp(200px, 4vw, 350px);
+    width: clamp(200px, 16vw, 350px);
+    height: clamp(200px, 16vw, 350px);
 }
